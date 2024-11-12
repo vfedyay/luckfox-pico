@@ -2,6 +2,7 @@
 
 # Install base
 apk update
+apk upgrade
 apk add openrc
 rc-update add devfs boot
 rc-update add procfs boot
@@ -27,7 +28,7 @@ rc-update add sshd default
 apk add mtd-utils-ubi
 apk add bottom
 apk add neofetch
-apk add wireguard wireguard-tools
+apk add wireguard-tools
 
 # Clear apk cache
 rm -rf /var/cache/apk/*
