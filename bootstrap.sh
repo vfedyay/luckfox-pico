@@ -2,7 +2,6 @@
 
 # Install base
 apk update
-apk upgrade
 apk add openrc
 rc-update add devfs boot
 rc-update add procfs boot
